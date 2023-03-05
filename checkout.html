@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out</title>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/6fba53b07a.js" crossorigin="anonymous"></script>
+    <!-- font google cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- css custome -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- heder section -->
+    <header class="section1">
+        <div class="part1">
+            <img src="images/icons8-search.svg" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="part2">
+            <h3>Ahmed Tayseer Tag Eldwal</h3>
+        </div>
+        <div class="part3">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-sharp fa-regular fa-heart"></i>
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            <p class="number">2</p>
+        </div>
+    </header>
+    <hr>
+
+    <!-- NAV bar start -->
+    <nav>
+        <div class="navbar">
+            <div class="center">
+                <div class="home dropdown1">
+                    <a href="index.html" class="dropbtn1">HOME</a>
+                    <img src="images/arrow-down-3101.png" alt="">
+                    <div class="dropdown-content1">
+                        <a href="#">List1</a>
+                        <a href="#">List2</a>
+                        <a href="#">List3</a>
+                    </div>
+                </div>
+        
+                <div class="home dropdown1">
+                    <a href="About.html" class=" dropbtn1">ABOUT</a>
+                    <img src="images/arrow-down-3101.png" alt="">
+                    <div class="dropdown-content1">
+                        <a href="#">List1</a>
+                        <a href="#">List2</a>
+                        <a href="#">List3</a>
+                    </div>
+                </div>
+                <div class="link">
+                    <a href="shop.html">SHOP</a>
+                    <a href="#">CATALOGUE</a>
+                    <a href="#">NEW ARRIVALS</a>
+                    <a href="#">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--  some link start -->
+
+    <section class="somelink">
+        <div class="some1">
+            <a href="index.html" class="space "> <span class="col">Home</span> </a>
+            <h3 class="space"> / </h3>
+            <a href="cart.html" class="space"><span class="col">Cart</span></a>
+            <h3 class="space"> / </h3>
+            <a href="#">Checkout</a>
+        </div>
+    </section>
+
+    <section class="top">
+        <h4>Returning customer? <a href="">Click here</a> to login</h4>
+    </section>
+
+    <!-- billing details -->
+    <section class="billing_total">
+        <!-- billling details -->
+        <div class="billingdet">
+            <h2>Billing Details</h2>
+            <form action="">
+                <label for="">Country*</label>
+                <select name="Countrys" id="">
+                    <option value="Non">Select a country</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="US">United States of America</option>
+                    <option value="England">England</option>
+                </select>
+                <!-- you must put her flexbox -->
+                <div class="part301">
+                    <div>
+                        <label for="">First Name*</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Last Name*</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="cName">
+                    <label for="">Company Name</label>
+                    <input type="text">
+                </div>
+                <div class="cName">
+                    <label for="">Address*</label>
+                    <input type="text" placeholder="Street address">
+                    <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+                </div>
+                <!-- you must put her flexbox -->
+                <div class="part301">
+                    <div>
+                        <label for="">State / Country*</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Post / Zip*</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <!-- you must put her flexbox -->
+                <div class="part301">
+                    <div>
+                        <label for="">Email Address*</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Phone*</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+
+                <div class="checkbox">
+                    <div class="par1">
+                        <input type="checkbox">
+                        <label for="">Create an account?</label>
+                    </div>
+                    <div class="par1">
+                        <input type="checkbox">
+                        <label for="">Ship To A Different Address?</label>
+                    </div>
+                </div>
+
+                <div class="texta">
+                    <label for="">Order Notes</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10"
+                        placeholder="Write your notes here...."></textarea>
+                </div>
+            </form>
+        </div>
+
+        <!-- coupon code & your order -->
+        <div>
+            <!-- coupon code -->
+            <div class="coupon_code">
+                <h2>Coupon Code</h2>
+                <form action="">
+                    <label for="">Enter your coupon code if you have one</label>
+                    <div class="Ccode">
+                        <input type="text" placeholder="coupon code" class="uniq">
+                        <input type="submit" class="uniq1" value="APPLY">
+                    </div>
+                </form>
+            </div>
+            <!-- your order -->
+            <div class="order">
+                <h2>Your Order</h2>
+                <div class="ordarborder">
+                    <div class="contaner">
+                        <!-- you must put here flexbox -->
+                        <div class="details">
+                            <div>
+                                <h4>Product</h4>
+                            </div>
+                            <div class="space201">
+                                <h4>Total</h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- you must put here flexbox -->
+                        <div class="details">
+                            <div>
+                                <h4>Top Up T-shirt x 1</h4>
+                            </div>
+                            <div class="space20">
+                                <h4>$250.00</h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- you must put here flexbox -->
+                        <div class="details">
+                            <div>
+                                <h4>Polo Shirt x 1</h4>
+                            </div>
+                            <div class="space20">
+                                <h4>$100.00</h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- you must put here flexbox -->
+                        <div class="details">
+                            <div>
+                                <h4>Cart Subtotal</h4>
+                            </div>
+                            <div class="space20">
+                                <h4>$350.00</h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- you must put here flexbox -->
+                        <div class="details">
+                            <div>
+                                <h4>Order Total</h4>
+                            </div>
+                            <div class="space20">
+                                <h4>$350.00</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="waypay">
+                        <a href="#">
+                            <h4>Direct Bank Transfer</h4>
+                        </a>
+                    </div>
+                    <div class="waypay">
+                        <a href="#">
+                            <h4>Cheque Payment</h4>
+                        </a>
+                    </div>
+                    <div class="waypay">
+                        <a href="#">
+                            <h4>paypal</h4>
+                        </a>
+                    </div>
+
+                    <div class="waypay1">
+                        <a href="thankyou.html">PLACE ORDER</a>
+                    </div>
+
+                    <div class="lastpart">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <!-- footer -->
+    <footer class="finalpart">
+        <section class="sec1">
+            <div class="add">
+                <div class="add1">
+                    <h4>Navigations</h4>
+                    <div class="line1">
+                        <p>Sell online</p>
+                        <p>Features</p>
+                        <p>Shopping cart</p>
+                        <p>Store builder</p>
+                    </div>
+                </div>
+                <div class="part103">
+                    <div class="line1">
+                        <p>Mobile commerce</p>
+                        <p>Dropshipping</p>
+                        <p>Website development</p>
+                    </div>
+                    <div class="line1">
+                        <p>Point of sale</p>
+                        <p>Hardware</p>
+                        <p>Software</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="part104">
+                <div class="line4">
+                    <h4>Promo</h4>
+                    <img src="images/hero_1.jpg" alt="">
+                    <p>Finding Your Perfect Shoes</p>
+                    <h6>Promo from nauary 15 __ 25,2019</h6>
+                </div>
+                <div class="line5">
+                    <h4>Contact Info</h4>
+                    <div class="info1">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>67 Elthare st Alamira, Cairo, Egypt</p>
+                    </div>
+                    <div class="info1">
+                        <i class="fa-sharp fa-solid fa-phone"></i>
+                        <p>01114719877</p>
+                    </div>
+                    <div class="info1">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>ahmed.tayseer600@gmail.com</p>
+                    </div>
+                    <div class="subs">
+                        <h4>Subscribe</h4>
+                        <div class="subs2">
+                            <input type="email" placeholder="Email">
+                            <button>Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <!-- finally part -->
+    <section class="final">
+        <h6>Copyright <span><i class="fa-regular fa-copyright"></i></span>&nbsp;2021 All right reserved | This template
+            is made
+            with <span><i class="fa-solid fa-heart"></i></span> by <span class="name">Ahmed Tayseer Tag Eldwal</span>
+        </h6>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,1608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* heder start */
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 50px;
+
+}
+
+.part1 img {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+
+}
+
+.link a{
+    color: black;
+}
+
+.part1 input {
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+
+.part1 input:active {
+    padding-left: 0px;
+    margin-right: 8px;
+}
+
+.part2 h3 {
+    border: 2px solid;
+    width: 240px;
+    padding: 5px;
+    text-align: center;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.part3 {
+    margin-right: 50px;
+}
+
+.part3 i {
+    font-size: 15px;
+    padding: 4px;
+    cursor: pointer;
+    color: gray;
+}
+
+.fa-cart-shopping:hover,
+.part3 i:hover {
+    color: black;
+}
+
+
+
+.fa-cart-shopping:hover,
+.number:hover,
+.fa-cart-shopping:focus,
+.number:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 4px 12px;
+    color: white;
+}
+
+.fa-cart-shopping:hover,
+.number:hover {
+    transform: translateY(-1px);
+}
+
+.fa-cart-shopping:active,
+.number:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: white 10px 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.fa-cart-shopping {
+    position: relative;
+
+}
+
+.part3 p {
+    border: 1px solid black;
+    width: 15px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #863edc;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    cursor: pointer;
+}
+
+
+/* heder end */
+
+hr {
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.623);
+}
+
+/* nav bar start */
+
+.navbar {
+    margin-top: 20px;
+    display: flex;
+}
+
+.center {
+    margin: auto;
+    display: flex;
+}
+
+.navbar a {
+    padding: 20px;
+    text-decoration: none;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: #cecbdd ;
+}
+
+.navbar img {
+    width: 10px;
+    height: 10px;
+}
+
+.home img {
+    margin-left: -15px;
+}
+
+/* .................................... */
+
+/* drop down section start */
+/* Style The Dropdown Button */
+.dropbtn1 {
+    color: black;
+    padding: 16px;
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown1:hover .dropbtn1 {
+    color: white;
+} */
+
+
+.hom {
+    color: #cdbdd7;
+}
+/* .................................... */
+
+
+
+/* nav bar end */
+
+/* section 2 start*/
+
+.section2 {
+    margin-top: 20px;
+    background-color: #a6f3ed;
+    height: 500px;
+}
+
+.section2 .center1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.secimg1 img {
+    width: 600px;
+    height: 350px;
+    margin-right: 40px;
+}
+
+.sectext1 {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.sectext1 h1 {
+    font-size: 40px;
+    font-family: Roboto;
+}
+
+.sectext1 p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+
+
+
+/* CSS */
+.button-6 a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-6 {
+    align-items: center;
+    background-color: #8147c8;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: white 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+/* section 2 end*/
+
+/* section 3 start */
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section3 p{
+    color: rgba(0, 0, 0, 0.418);
+}
+
+.sec3part0 {
+    display: flex;
+    width: 300px;
+    margin: 20px;
+}
+
+.sec3part0 .icon3 i {
+    font-size: 30px;
+    color: #7b3dd0;
+    margin-right: 15px;
+}
+
+.sec3part0 .text3 h4 {
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+.section4 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.sec4par0 {
+    margin: 10px;
+}
+
+.sec4par0 .parent1 img {
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.parent1 #zoom-In img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    filter: brightness(80%);
+}
+
+.parent1 #zoom-In:hover img {
+    transform: scale(1.1);
+}
+
+.parent1 {
+    position: relative;
+}
+
+.section4 .parent1 figure {
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.chiled1 {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    color: white;
+    z-index: 3;
+}
+
+/* section 4 end */
+
+
+/* section 5 start */
+
+.section5 {
+    margin-top: 70px;
+    height: 690px;
+    background-color: #f6f7f6;
+}
+
+.textcet img {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.textcet {
+    text-align: center;
+}
+
+.sect5cont {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sect5cont .part101 {
+    background-color: white;
+    margin-left: 15px;
+    text-align: center;
+    width: 400px;
+    height: 465px;
+}
+
+.sect5cont .part101 img {
+    width: 100%;
+    height: 320px;
+
+}
+
+
+.sect5cont .part101 .text4 {
+    margin-top: 30px;
+}
+
+.abc {
+    margin-top: 5px;
+    color: #5930b9;
+}
+
+.text4 h4 {
+    color: #5930b9;
+}
+
+.cd {
+    color: #c1c0bf;
+    margin-top: 5px;
+}
+
+/* section 5 end */
+
+/* section 6 start */
+
+.section6 {
+    height: 500px;
+}
+
+.part102 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.imgleft {
+    margin-right: 100px;
+}
+
+.imgleft img {
+    width: 600px;
+    height: 300px;
+}
+
+.textright {
+    width: 300px;
+    text-align: center;
+}
+
+.cont1 {
+    margin-bottom: 20px;
+}
+
+.cont1 h1 {
+    margin-bottom: 5px;
+    font-family: Roboto;
+    color: #897b9c;
+}
+
+.cont1 h6 {
+    color: #e9e7e6;
+}
+
+.cont1 span {
+    color: #cec2d8;
+}
+
+.cont2 h6 {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.418);}
+
+/* section 6 end */
+
+/* footer start */
+
+.finalpart {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 350px;
+}
+
+.part103 {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.part104 {
+    display: flex;
+}
+
+.sec1 {
+    margin-right: 50px;
+}
+
+.add {
+    display: flex;
+}
+
+.add .add1 {
+    margin-right: 90px;
+}
+
+.add .add1 h4 {
+    margin-bottom: 20px;
+}
+
+
+.part103 .line1 {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.line1 p {
+    padding-bottom: 10px;
+}
+
+.part104 .line4 img {
+    width: 230px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.line4 p {
+    margin-bottom: 5px;
+    color: #7a3cdb;
+}
+
+.line4 a{
+    text-decoration: none;
+}
+
+.line4 h4 {
+    margin-bottom: 20px;
+}
+
+.line5 {
+    margin-left: 20px;
+}
+
+.line5 h4 {
+    margin-bottom: 20px;
+}
+
+.line5 .info1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info1 i {
+    margin-right: 10px;
+    color: #8b5cc9;
+}
+
+.line5 .subs {
+    margin-top: 80px;
+}
+
+.subs input {
+    border: none;
+    outline: none;
+    padding: 6px 15px;
+    width: 140px;
+}
+
+.subs2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 240px;
+    border-radius: 3px;
+    border: 1px solid #cfc2b4;
+
+}
+
+.subs2 input {
+    margin-top: -3px;
+} 
+
+/* ...................... */
+
+.subs201 {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #cfc2b4;
+    position: relative;
+
+}
+
+.subs201 button {
+    padding: 11px 20px;
+    background-color: #853de8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 170px;
+    
+}
+.subs201 input {
+    margin-top: -2px;
+} 
+
+/* ............................ */
+
+
+.subs2 button {
+    padding: 10px 20px;
+    background-color: #853de8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* footer end */
+/* finally part start */
+
+.final {
+    height: 50px;
+    text-align: center;
+}
+
+.name {
+    color: #853de8;
+}
+
+/* finally part end */
+
+
+/* About page*/
+/* some link start */
+
+.somelink {
+    height: 50px;
+    background-color: #f6f7f6;
+    margin-top: 20px;
+}
+
+
+.some1 {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 30px;
+}
+
+.some1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.space {
+    margin-right: 8px;
+}
+
+.col {
+    color: #8b5cc9;
+}
+
+/* some link end */
+
+/* how we start section start */
+
+.section7 {
+    height: 320px;
+}
+
+
+
+.sect1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.part201 img {
+    width: 450px;
+    height: 250px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.parent11 {
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 363px;
+    right: 920px;
+}
+
+.text101 {
+    width: 480px;
+}
+
+.space1 {
+    margin-top: 15px;
+}
+
+/* how we start section end */
+
+.section8 {
+    height: 370px;
+}
+
+.sect81 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sect81 img {
+    margin-bottom: 10px;
+}
+
+
+.sect82 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.tem1 {
+    width: 250px;
+    text-align: center;
+    margin: 30px;
+}
+
+.tem1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.tem1 h4 {
+    margin-top: 10px;
+}
+
+.tem1 h6 {
+    color: rgba(0, 0, 0, 0.349);
+    margin-top: 5px;
+}
+
+.tem1 p {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+/* section 10 start*/
+
+.section10 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.leftside {
+    position: sticky;
+    left: 90px;
+
+}
+
+.box0 {
+    border: 1px solid black;
+    width: 200px;
+    padding: 20px;
+}
+
+.box0 h4 {
+    margin-bottom: 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.xx {
+    margin-bottom: 10px;
+}
+
+
+
+
+.pasic1 {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 190px;
+    height: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.measer {
+    position: absolute;
+    top: -4px;
+    right: 70px;
+}
+
+.measer img {
+    width: 100px;
+    height: 13px;
+
+}
+
+.cent {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 200px;
+    padding: 20px;
+}
+
+.cent h5 {
+    margin-top: 10px;
+}
+
+.size {
+    margin-top: 30px;
+}
+
+.color1 {
+    color: red;
+}
+
+.clolor2 {
+    color: green;
+}
+
+.color3 {
+    color: blue;
+}
+
+.color4 {
+    color: purple;
+}
+
+
+/* section 10 part 2 start */
+
+
+.section10_part2 {
+    width: 880px;
+    margin-top: 90px;
+}
+
+.row1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sell1 {
+    border: 0.5px outset;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+}
+
+.sell1 img {
+    width: 100%;
+    height: 170px;
+}
+
+.sell1_text1 {
+    margin-top: 20px;
+}
+
+.navigation {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chape0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.chape1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.404)black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #893deb;
+    color: white;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+
+
+/* section 10 part 2 end */
+
+/* section 10 end */
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    position: relative;
+}
+
+.test2 {
+    position: absolute;
+    right: 70px;
+}
+
+
+/* drop down section start */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #e6e5e5;
+    color: black;
+    padding: 16px;
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #51585e;
+    color: white;
+    box-shadow: 10px 5px 10px 5px black;
+    padding: 16px 18px;
+}
+
+.link1 hr {
+    margin-top: 0;
+}
+
+/* drop down section end */
+
+/* section 4.1 start */
+
+.section401 {
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+.section401 img {
+    margin-right: 600px;
+    width: 50px;
+}
+
+.space11 {
+    height: 100px;
+}
+
+
+/* section 4.1 end */
+
+
+/*  Top T-Shirt start*/
+.Tshert {
+    margin-top: 90px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Timg img {
+    width: 100%;
+}
+
+.Ttext {
+    width: 500px;
+}
+
+.Ttext p {
+    margin-top: 20px;
+}
+
+.Ttext h2 {
+    margin-top: 20px;
+    color: #a38fbb;
+}
+
+.Ttext form {
+    margin-top: 20px;
+}
+
+.radio {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.space30{
+    margin-right: 5px;
+}
+
+
+.rig {
+    margin-right: 10px;
+}
+
+.countar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.countar h3 {
+    border: 0.5px solid rgb(209, 191, 191);
+    width: 100px;
+    text-align: center;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countar button {
+    padding: 10px 10px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+
+/*  Top T-Shirt end*/
+
+
+/*  Table section start */
+.Tab {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px 8px;
+
+}
+
+.qut {
+    margin-left: 20px;
+}
+
+.square {
+    position: relative;
+}
+
+.square a {
+    color: white;
+    text-decoration: none;
+}
+
+.square h4 {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: #863de6;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+    left: 45px;
+}
+
+
+.contain {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.butt1 {
+    padding: 9px 50px;
+    font-size: 10px;
+    color: white;
+    background-color: #863ce7;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.butt1:hover,
+.butt1:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
+}
+
+.butt1:hover {
+    transform: translateY(-1px);
+}
+
+.butt1:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: white 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+.next {
+    display: flex;
+}
+
+.butt2 {
+    padding: 9px 50px;
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+}
+
+
+.butt2 a {
+    color: #c6b1df;
+    text-decoration: none;
+}
+
+.next2 {
+    margin-top: 30px;
+}
+
+
+.next2 p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+.next2 form {
+    margin-top: 10px;
+    display: flex;
+}
+
+.CC {
+    padding: 10px;
+    width: 280px;
+}
+
+.butn {
+    padding: 10px 20px;
+    margin-left: 15px;
+    background-color: #863ce7;
+    color: white;
+    border: none;
+    font-size: 13px;
+
+}
+
+.contain_part2 h4 {
+    display: flex;
+    justify-content: right;
+}
+
+.hed hr {
+    margin-top: 0px;
+}
+
+.right_side {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.right_sidespa {
+    margin-bottom: 10px;
+}
+
+.ttt {
+    margin-right: 20px;
+}
+.down {
+    margin-top: 50px;
+}
+
+/*  Table section end */
+
+
+/* billing top */
+.top {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 50px;
+    border: 1px solid #cfc2b4;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.top h4 {
+    color: rgba(0, 0, 0, 0.363);
+}
+
+.top a {
+    text-decoration: none;
+    color:#8b5cc9;;
+}
+
+.billing_total {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+/* billing details start */
+
+
+.billingdet {
+    margin-top: 30px;
+}
+
+.billingdet h2 {
+    margin-bottom: 10px;
+}
+
+.billingdet form {
+    border: 1px solid #cfc2b4;
+    padding: 20px 50px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+
+.part301 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.part301 input {
+    width: 200px;
+    padding: 7px;
+}
+
+select {
+    margin-top: 10px;
+    width: 447px;
+    height: 40px;
+    padding: 7px 7px;
+    border: 1px solid #cfc2b4;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+input,
+label {
+    display: block;
+    margin-top: 10px;
+    outline: none;
+}
+
+input {
+    border: 1px solid #cfc2b4;
+    border-radius: 5px;
+
+}
+
+.cName input {
+    width: 440px;
+    padding: 7px;
+}
+
+.checkbox {
+    margin-top: 30px;
+}
+
+.checkbox .par1 {
+    display: flex;
+    padding: 5px;
+}
+
+.par1 label {
+    margin-left: 3px;
+}
+
+textarea {
+    outline: none;
+    border: 1px solid #cfc2b4;
+    width: 429px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.texta label {
+    margin-bottom: 10px;
+}
+
+
+/* coupon code start */
+
+.coupon_code {
+    margin-top: 30px;
+    width: 540px;
+}
+
+.coupon_code h2 {
+    margin-bottom: 10px;
+}
+
+.coupon_code form {
+    border: 1px solid #cfc2b4;
+    height: 100px;
+    padding: 20px 50px;
+}
+
+.coupon_code form label {
+    margin-bottom: 10px;
+}
+.Ccode {
+    display: flex;
+}
+
+.Ccode .uniq {
+    padding: 7px 7px;
+    width: 235px ;
+    height: 25px;
+    font-size: 15px ;
+}
+
+.Ccode .uniq1 {
+    padding: 7px 7px;
+    width: 90px ;
+    border-radius: 0px;
+    background-color: #863ce7;
+    color: white;
+}
+
+
+
+.uniq1:hover,
+.uniq1:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
+}
+
+.uniq1:hover {
+    transform: translateY(-1px);
+}
+
+.uniq1:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: white 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+/* coupon code end */
+
+/* order section start */
+.order {
+    margin-top: 40px;
+}
+.order h2{
+    margin-bottom: 10px;
+}
+.ordarborder {
+    border: 1px solid #cfc2b4;
+
+}
+
+.contaner {
+    margin-top: 40px;
+    padding: 20px 50px;
+    width: 450px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contaner hr {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.space201 {
+    margin-right: 140px;
+}
+.space20 {
+    margin-right: 120px;
+}
+
+.waypay {
+    margin: auto;
+    border: 1px solid #cfc2b4;
+    padding: 15px 15px;
+    width: 425px ;
+    margin-bottom: 10px ;
+}
+
+.waypay a {
+    text-decoration: none;
+    color: #b5a5c3
+}
+
+
+.waypay1 {
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid #cfc2b4;
+    padding: 15px 15px;
+    width: 425px ;
+    margin-bottom: 10px ;
+    text-align: center;
+    background-color: #863ce7;
+    cursor: pointer;
+}
+
+
+
+.waypay1 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.waypay1:hover,
+.waypay1:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 4px 12px;
+    color: white;
+}
+
+.waypay1:hover {
+    transform: translateY(-1px);
+}
+
+.waypay1:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: white 10px 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.lastpart {
+    height: 40px;
+}
+/* order section end */
+
+/* billing details end */
+
+/* Thank you page start */
+
+.end {
+    margin-top: 80px;
+    text-align: center;
+    height: 300px;
+
+}
+
+.end i {
+    margin-top: 20px;
+    font-size: 60px;
+    color: #00b443;
+}
+
+.end h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.end button {
+    cursor: pointer;
+}
+.back {
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid #cfc2b4;
+    padding: 15px 15px;
+    width: 200px ;
+    margin-bottom: 10px ;
+    text-align: center;
+    background-color: #863ce7;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.back:hover,
+.back:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 4px 12px;
+    color: white;
+}
+
+.back:hover {
+    transform: translateY(-1px);
+}
+
+.back:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: white 10px 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+/* Thank you page end */
